@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>Rock, Paper, or Scissors?</h1>
+
+        <h2>Scoreboard</h2>
+
+        <div class="scoreboard">
+            <div class="score-box">
+                <p>Human (You)</p>
+                <span id="human-score">0</span>
+            </div>
+            <div class="score-box">
+                <p>Computer</p>
+                <span id="computer-score">0</span>
+            </div>
+        </div>
+
+        <div class="message-container">
+            <p id="round-status">Choose your weapon to start Round 1</p>
+            <h3 id="final-winner"></h3>
+        </div>
+
+        <p class="instruction-text">Choose between Rock, Paper, or Scissors...</p>
+        <div class="choices">
+            <button id="rock" class="choice-btn">
+                <div class="icon">🪨</div>
+                <span>Rock</span>
+            </button>
+            <button id="paper" class="choice-btn">
+                <div class="icon">📄</div>
+                <span>Paper</span>
+            </button>
+            <button id="scissors" class="choice-btn">
+                <div class="icon">✂️</div>
+                <span>Scissors</span>
+            </button>
+        </div>
+
+        <p><b>Overall Results</b></p>
+        <table id="results-table">
+            <thead>
+                <tr>
+                    <th>Round</th>
+                    <th>Human (You)</th>
+                    <th>Computer</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <button id="reset-btn" class="hidden">Play Again</button>
+    </div>
+
+    <footer>
+        Made by <a href="https://github.com/ItzNawfalz04" target="_blank">ItzNawfalz04</a>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
