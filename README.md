@@ -1,5 +1,3 @@
-<img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/af398705-e268-414d-a89d-b0c05391d135" />
-
 # 💻 The Odin Projects - Project Compilation
 
 A comprehensive collection of projects built as part of [The Odin Project](https://www.theodinproject.com/) web development curriculum. This repository showcases my journey in learning web development through hands-on project building, with each project enhanced beyond the basic requirements while maintaining alignment with the course objectives.
